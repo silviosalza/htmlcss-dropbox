@@ -14,6 +14,10 @@ body{
 .flex{
     display: flex;
 }
+.space-bet{
+    justify-content: space-between;
+    align-items: center;
+}
 
 .container{
     width: 70%;
@@ -37,7 +41,7 @@ body{
 }
 
 img{
-    max-width: 100%;   
+    max-width: 100%;
 }
 
 
@@ -48,10 +52,12 @@ img{
 /* HEADER */
 
 .header{
-    height: 60px;
+    height: 80px;
     width: 100%;
-    /* debug */
-    background-color: rgb(181, 181, 181);
+
+}
+.header li{
+    padding: 0 20px;
 }
 
 .jumbo-info{
@@ -80,12 +86,18 @@ img{
 /* ------------------------------------------------------- */
 /* TYPO */
 
+/* HEADER */
 ul li{
     list-style: none;
 }
 li a{
     text-decoration: none;
     color: inherit;
+}
+.blu-but{
+    background-color:#0061FF ;
+    color: white;
+    padding: 5px 10px;
 }
 .title{
     text-align: center;
