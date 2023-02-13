@@ -16,7 +16,12 @@ body{
 }
 .space-bet{
     justify-content: space-between;
+}
+.aligncenter{
     align-items: center;
+}
+.alignstart{
+    align-items: flex-start;
 }
 
 .container{
@@ -51,9 +56,9 @@ img{
 
 
 /* ------------------------------------------------- */
-/* LAYOUT */
+/* LAYOUT - HEADER */
 
-/* HEADER */
+
 .jumbotron{
     background-color:#B4D0E7 ;
 }
@@ -82,15 +87,49 @@ img{
     bottom: -70px;
 }
 /* -------------------------------------------------------- */
+/* LAYOUT - MAIN */
 
-/* MAIN */
 
+/* type of offer */
 .offer{
     padding: 100px 0;
 }
+
 .column-offer{
     width: calc(100% / 3);
+    border: solid 1px black;
+    margin: 10px;
 }
+.col-header{
+    border-bottom: solid 1px black;
+    text-align: center;
+    padding: 5px 0;
+}
+.col-body ul{
+    padding: 15px 10px;
+    line-height: 35px;
+}
+.try-buy{
+    text-align: center;
+}
+.icon i{
+    padding: 8px 5px 0 0;
+}
+.offer-footer{
+    border: solid black 1px;
+}
+.col-ent{
+    width: 60%;
+}
+.enterprise{
+    padding: 20px 10px;
+}
+.enterprise p{
+    padding: 30px 0 10px 0;
+}
+
+
+
 .partner-img{
     width: 60%;
 }
@@ -101,6 +140,7 @@ img{
     width: calc(100% / 3);
     /* deb */
 }
+
 
 /* ------------------------------------------------------- */
 /* TYPO */
@@ -120,6 +160,11 @@ a{
     background-color:#0061FF ;
     color: white;
     padding: 5px 10px;
+}
+.blu-but2{
+    background-color:#0061FF ;
+    color: white;
+    padding: 5px 40px;
 }
 
 .title{
