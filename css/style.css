@@ -90,7 +90,7 @@ img{
 /* LAYOUT - MAIN */
 
 
-/* type of offer */
+/* type of offer sect */
 .offer{
     padding: 100px 0;
 }
@@ -118,6 +118,7 @@ img{
 .offer-footer{
     border: solid black 1px;
 }
+/* enterprise sect */
 .col-ent{
     width: 60%;
 }
@@ -129,7 +130,7 @@ img{
 }
 
 
-
+/* partner sect */
 .partner-img{
     width: 60%;
 }
@@ -140,6 +141,31 @@ img{
 .partner-info p{
     padding: 30px 0;
 }
+
+/* Business sect */
+.business{
+    padding: 50px 0 100px 0;
+}
+.column,
+.card{
+    padding: 20px 0;
+}
+.business h2{
+    font-size: 35px;
+    padding: 30px 0;
+}
+.card h4{
+    font-size: 20px;
+    padding: 10px 0;
+}
+.card p{
+    padding-right: 15px;
+}
+.card img{
+    width: 90%;
+}
+
+
 .sponsor-col{
     width: calc(100% / 3);
     /* deb */
@@ -226,6 +252,10 @@ a{
     height: 400px;
 }
 .buy-now{
+    text-decoration: underline;
+    color: #0061FF;
+}
+.business a{
     text-decoration: underline;
     color: #0061FF;
 }
