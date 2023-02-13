@@ -135,6 +135,10 @@ img{
 }
 .partner-info{
     width: 40%;
+    padding: 50px 0 0 30px;
+}
+.partner-info p{
+    padding: 30px 0;
 }
 .sponsor-col{
     width: calc(100% / 3);
@@ -161,6 +165,13 @@ a{
     color: white;
     padding: 5px 10px;
 }
+    
+.white-but{
+    border: solid black 1px ;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+}
+
 .blu-but2{
     background-color:#0061FF ;
     color: white;
