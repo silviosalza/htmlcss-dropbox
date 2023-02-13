@@ -13,7 +13,23 @@ body{
 
 .flex{
     display: flex;
-    justify-content: space-between;
+}
+.flex-center{
+    display: flex;
+
+    
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1100px;
+    /* debug */
+    background-color: brown;
+}
+img{
+    max-width: 100%;
+    
 }
 
 /* ------------------------------------------------- */
@@ -25,7 +41,15 @@ body{
 .header{
     height: 60px;
     width: 100%;
+    /* debug */
     background-color: rgb(181, 181, 181);
+}
+
+.jumbo-info{
+    width: 30%;
+}
+.jumbo-img{
+    width: 70%;
 }
 
 
@@ -38,4 +62,7 @@ ul li{
 li a{
     text-decoration: none;
     color: inherit;
+}
+.title{
+    text-align: center;
 }
