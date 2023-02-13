@@ -15,7 +15,6 @@ body{
     display: flex;
 }
 
-
 .container{
     width: 70%;
     margin: 0 auto;
@@ -30,6 +29,13 @@ body{
     /* debug */
     background-color: lightgreen;
 }
+.container3{
+    width: 100%;
+    margin: 0 auto;
+    /* debug */
+    background-color: lightcoral;
+}
+
 img{
     max-width: 100%;   
 }
@@ -66,6 +72,12 @@ img{
 .partner-info{
     width: 40%;
 }
+.sponsor-col{
+    width: calc(100% / 3);
+    /* deb */
+}
+
+
 
 
 /* ------------------------------------------------------- */
@@ -80,4 +92,16 @@ li a{
 }
 .title{
     text-align: center;
+}
+.box{
+    width: calc(100% / 2);
+    height: 200px;
+    /* debug */
+    border: solid black;
+}
+.box2{
+    /* debug */
+    border: black solid;
+    width: 100%;
+    height: 400px;
 }
