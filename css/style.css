@@ -72,6 +72,7 @@ img{
     z-index: 999;
     box-shadow: 5px 5px rgb(180, 208, 231, 0.4);
 }
+
 .jumbotron{
     background-color:#B4D0E7 ;
     padding: 50px 0;
@@ -198,10 +199,11 @@ img{
     padding: 20px;
 }
 .card:hover{
-    border: 1px #B4D0E7 solid;
+    border: solid 3px  #B4D0E7;
     transform: scale(103%);
     transition-duration: 1s;
 }
+
 .card h4{
     font-size: 20px;
     padding: 20px 0;
@@ -345,6 +347,14 @@ a{
     text-decoration: none;
     color: inherit;
 }
+.underline:hover{
+    border-bottom: #0D2481 solid 3px;
+    padding-bottom: 32px;
+}
+.underline2:hover{
+    border-bottom: #0D2481 solid 3px;
+    padding-bottom: 28px;
+}
 
 .blu-but{
     background-color:#0061FF ;
@@ -387,9 +397,9 @@ a{
     font-size: 60px;
     padding: 40px 0;
 }
-body:hover .title{
-    animation-name: transition;
-    animation-duration: 6s;
+header:hover .title{
+    
+    animation: transition 2s ;
     animation-iteration-count: 1;
 }
 @keyframes transition{
