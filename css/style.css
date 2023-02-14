@@ -66,10 +66,14 @@ img{
 
 /* ------------------------------------------------- */
 /* LAYOUT - HEADER */
-
+.header{
+    position: fixed;
+    background-color: white;
+    z-index: 999;
+}
 .jumbotron{
     background-color:#B4D0E7 ;
-    padding-bottom: 50px;
+    padding: 50px 0;
 }
 
 .header{
@@ -325,6 +329,9 @@ a{
     background-color:#0061FF ;
     color: white;
     padding: 10px 20px;
+}
+.jumbo-info .blu-but2{
+    display: inline-block;
 }
 
 .blu-but:hover,
