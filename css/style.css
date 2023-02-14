@@ -199,9 +199,9 @@ img{
     padding: 20px;
 }
 .card:hover{
-    border: solid 3px #0061FF ;
-    transform: scale(104%);
-    transition-duration: 1s;
+    border: solid 1px #0061FF ;
+    transform: scale(105%);
+    transition-duration: 0s;
 }
 
 .card h4{
