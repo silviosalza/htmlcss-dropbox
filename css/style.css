@@ -14,20 +14,29 @@ body{
 .flex{
     display: flex;
 }
+
 .start{
     align-items: flex-start;
+}
+
+.vertical{
+    flex-direction: column;
+    gap: 30px;
 }
 
 .space-bet{
     justify-content: space-between;
 }
+
 .center{
     justify-content: center;
     align-items: center;
 }
+
 .aligncenter{
     align-items: center;
 }
+
 .alignstart{
     align-items: flex-start;
 }
@@ -35,13 +44,13 @@ body{
 .container{
     width: 80%;
     margin: 0 auto;
-    max-width: 1100px;
-
+    max-width: 1200px;
 }
+
 .container2{
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
-    max-width: 1100px;
+    max-width: 1200px;
 }
 
 .container3{
@@ -52,20 +61,15 @@ body{
 img{
     max-width: 100%;
 }
-.flex-info{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
 
 
 
 /* ------------------------------------------------- */
 /* LAYOUT - HEADER */
 
-
 .jumbotron{
     background-color:#B4D0E7 ;
+    padding-bottom: 50px;
 }
 
 .header{
@@ -88,12 +92,11 @@ img{
 
 .jumbo-img img{
     position: absolute;
-    right:0;
-    bottom: -100px;
+    left: 0;
+    top: 0;
 }
 /* -------------------------------------------------------- */
 /* LAYOUT - MAIN */
-
 
 /* type of offer sect */
 .offer{
@@ -104,6 +107,7 @@ img{
     width: calc(100% / 3);
     border: solid 1px black;
 }
+
 .middle{
     margin: 0 25px;
 }
@@ -113,41 +117,46 @@ img{
     text-align: center;
     padding: 5px 0;
 }
+
 .col-body ul{
-    padding: 25px 45px;
-    line-height: 35px;
+    padding: 25px 45px;   
+}
+.highlight{
+    margin-top: 50px;
 }
 
-.try-buy{
-    text-align: center;
-}
 .icon i{
     padding: 8px 5px 0 0;
 }
+
 .fa-check{
     color: #0061FF;
 }
+
+/* enterprise sect */
 .offer-footer{
     border: solid black 1px;
 }
-/* enterprise sect */
 .col-ent{
     width: 60%;
 }
+
 .enterprise{
     padding: 25px 45px;
 }
+
 .enterprise p{
     padding: 30px 0 10px 0;
 }
-
 
 /* partner sect */
 .partner-img{
     width: 60%;
 }
+
 .partner-info{
     width: 40%;
+  
     padding: 50px 0 0 30px;
 }
 .partner-info p{
@@ -169,6 +178,7 @@ img{
 .card{
     padding: 20px;
 }
+
 .card h4{
     font-size: 20px;
     padding: 20px 0;
@@ -184,7 +194,7 @@ img{
 }
 
 .box img{
-    width: 50%;
+    width: 40%;
     filter: invert(100%);
 }
 
@@ -194,7 +204,7 @@ img{
 }
 
 .box2 img{
-    width: 60%;
+    width: 50%;
     padding-bottom: 50px;
 }
 
@@ -238,24 +248,25 @@ img{
 
 /* call to act sect */
 .calltoact{
-    padding: 100px 0;
+    padding: 150px 0;
     background-color: #B4D0E7;
 }
-
-
 
 /* faq sect */
 .faq{
     padding: 80px 0;
 }
+
 .faq h2{
     padding-bottom: 40px;
     font-size: 30px;
 }
+
 .faq li{
     padding: 20px 0;
     font-weight: 600;
 }
+
 .faq-icon{
     padding-right: 20px;
 }
@@ -266,19 +277,21 @@ footer{
     background-color: black;
     color: white;
 }
+
 .footer{
     padding: 80px 0;
 }
+
 .footer li{
     padding: 10px 0;
 }
+
 .footer hr{
     margin: 30px 0;
 }
 
 /* ------------------------------------------------------- */
 /* TYPO */
-
 /* HEADER TYPO */
 ul li{
     list-style: none;
@@ -295,10 +308,21 @@ a{
     color: white;
     padding: 5px 10px;
 }
+
 .blu-but2{
     background-color:#0061FF ;
     color: white;
-    padding: 5px 20px;
+    padding: 10px 20px;
+}
+
+.blu-but:hover,
+.blu-but2:hover{
+    background-color:#5c9aff;
+}
+
+.white-but:hover,
+.white-but-bord:hover{
+    background-color: rgb(233, 233, 233);
 }
 
 .white-but{
@@ -320,7 +344,6 @@ a{
 
 .darrow{
     font-size: 50px;
-    padding: 0 0 1rem 0;
 }
 /* ------------------------------------------------- */
 /* MAIN TYPO */
@@ -330,8 +353,8 @@ a{
     border: solid 3px blue;
     border-radius: 50%;
     display: inline-block;
-
 }
+
 .white-circle{
     height: 13px;
     width: 13px;
@@ -339,13 +362,20 @@ a{
     border-radius: 50%;
     display: inline-block;
 }
+
+.col-body,
+.enterprise{
+    font-size: 14px;
+    line-height: 35px;
+}
+
 .offer h2{
     font-size: 35px;
 }
-.info-list,
-.try-buy,
-.highlight{
-    font-size: 14px;
+
+.offer h3,
+.col-ent h3{
+    font-size: 20px;
 }
 
 .offer h2,
@@ -353,22 +383,32 @@ a{
 .row-offer{
     padding: 0 0 40px 0;
 }
+
 .month{
     padding: 0 20px 0 0;
 }
+
 .divisor{
     border-bottom: solid 1px black;
     padding-bottom: 30px;
 }
-
+.try-buy .blu-but2{
+    display: inline-block;
+    line-height: 15px;
+}
+.try-buy{
+    text-align: center;
+}
 .buy-now{
     text-decoration: underline;
     color: #0061FF;
 }
+
 .business a{
     text-decoration: underline;
     color: #0061FF;
 }
+
 .calltoact h2{
     color: darkred;
     font-size: 30px;
@@ -376,10 +416,10 @@ a{
 }
 
 /* FOOTER TYPO */
-
 footer li:first-child{
     font-size: x-large;
 }
+
 #lang{
     color:rgb(188, 188, 188);
 }
