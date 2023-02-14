@@ -158,6 +158,8 @@ img{
     font-size: 35px;
     padding: 30px 0;
 }
+
+/* card section */
 .card h4{
     font-size: 20px;
     padding: 10px 0;
@@ -169,10 +171,17 @@ img{
     width: 90%;
 }
 
-
+/* sponsor sect */
 .sponsor-col{
     width: calc(100% / 3);
     /* deb */
+}
+
+/* call to act sect */
+.calltoact{
+    padding: 100px 0;
+    background-color: #B4D0E7;
+    width: ;
 }
 
 
@@ -266,4 +275,8 @@ a{
 .business a{
     text-decoration: underline;
     color: #0061FF;
+}
+.calltoact h2{
+    color: darkred;
+    width: 40%;
 }
