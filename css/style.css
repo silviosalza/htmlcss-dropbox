@@ -111,6 +111,20 @@ img{
     width: calc(100% / 3);
     border: solid 1px black;
 }
+.column-offer:hover,
+.offer-footer:hover{
+    transform: scale(103%);
+    transition-duration: 1s; 
+    border: goldenrod solid 4px;  
+}
+.column-offer:hover i,
+.offer-footer:hover i,
+.column-offer:hover h3,
+.offer-footer:hover h3{
+    color: goldenrod;
+    
+}
+
 
 .middle{
     margin: 0 25px;
@@ -182,7 +196,11 @@ img{
 .card{
     padding: 20px;
 }
-
+.card:hover{
+    border: 1px #B4D0E7 solid;
+    transform: scale(103%);
+    transition-duration: 1s;
+}
 .card h4{
     font-size: 20px;
     padding: 20px 0;
@@ -200,6 +218,14 @@ img{
 .box img{
     width: 40%;
     filter: invert(100%);
+}
+.box:hover img{
+    transform: scale(120%);
+    transition-duration: 1s;
+}
+.box2:hover img{
+    transform: translateX(50%);
+    transition-duration: 2s;
 }
 
 .box{
@@ -283,7 +309,7 @@ img{
     display: none;
 }
 .faq-hov:hover .answer{
-    display: block;
+    display:inline-block;
 }
 
 
