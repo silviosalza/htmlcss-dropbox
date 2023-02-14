@@ -70,6 +70,7 @@ img{
     position: fixed;
     background-color: white;
     z-index: 999;
+    box-shadow: 5px 5px rgb(180, 208, 231, 0.4);
 }
 .jumbotron{
     background-color:#B4D0E7 ;
@@ -386,6 +387,16 @@ a{
     font-size: 60px;
     padding: 40px 0;
 }
+body:hover .title{
+    animation-name: transition;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+}
+@keyframes transition{
+    0%{filter: opacity(0%);}
+    100%{filter: opacity(100%);}
+}
+
 
 .darrow{
     font-size: 50px;
