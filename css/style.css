@@ -348,11 +348,11 @@ a{
     color: inherit;
 }
 .underline:hover{
-    border-bottom: #0D2481 solid 3px;
+    border-bottom: #0D2481 solid 5px;
     padding-bottom: 32px;
 }
 .underline2:hover{
-    border-bottom: #0D2481 solid 3px;
+    border-bottom: #0D2481 solid 5px;
     padding-bottom: 28px;
 }
 
