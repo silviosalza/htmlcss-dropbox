@@ -14,6 +14,9 @@ body{
 .flex{
     display: flex;
 }
+.start{
+    align-items: flex-start;
+}
 
 .space-bet{
     justify-content: space-between;
@@ -241,18 +244,21 @@ img{
 }
 
 
+
 /* faq sect */
 .faq{
     padding: 80px 0;
 }
 .faq h2{
     padding-bottom: 40px;
+    font-size: 30px;
 }
 .faq li{
-    padding: 10px 0;
+    padding: 20px 0;
+    font-weight: 600;
 }
 .faq-icon{
-    padding-right: 30px;
+    padding-right: 20px;
 }
 
 /* --------------------------------------------------------- */
@@ -274,7 +280,7 @@ footer{
 /* ------------------------------------------------------- */
 /* TYPO */
 
-/* HEADER */
+/* HEADER TYPO */
 ul li{
     list-style: none;
 }
@@ -290,17 +296,22 @@ a{
     color: white;
     padding: 5px 10px;
 }
-
-.white-but{
-    border: solid black 1px ;
-    color: rgb(0, 0, 0);
-    padding: 5px 10px;
-}
-
 .blu-but2{
     background-color:#0061FF ;
     color: white;
-    padding: 5px 40px;
+    padding: 5px 20px;
+}
+
+.white-but{
+    color: rgb(0, 0, 0);
+    padding: 10px 40px;
+    background-color: white;
+}
+.white-but-bord{
+    border: solid 1px black;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    background-color: white;
 }
 
 .title{
@@ -313,7 +324,7 @@ a{
     padding: 0 0 1rem 0;
 }
 /* ------------------------------------------------- */
-/* MAIN */
+/* MAIN TYPO */
 .blu-circle{
     height: 13px;
     width: 13px;
@@ -352,5 +363,15 @@ a{
 }
 .calltoact h2{
     color: darkred;
-    width: 40%;
+    font-size: 30px;
+    width: 50%;
+}
+
+/* FOOTER TYPO */
+
+footer li:first-child{
+    font-size: x-large;
+}
+#lang{
+    color:rgb(188, 188, 188);
 }
