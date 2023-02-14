@@ -97,18 +97,22 @@ img{
 
 .column-offer{
     width: calc(100% / 3);
-    border: solid 1px black;
-    margin: 10px;
+    border: solid 1px black;   
 }
+.middle{
+    margin: 0 20px;
+}
+
 .col-header{
     border-bottom: solid 1px black;
     text-align: center;
     padding: 5px 0;
 }
 .col-body ul{
-    padding: 15px 10px;
+    padding: 25px 10px;
     line-height: 35px;
 }
+
 .try-buy{
     text-align: center;
 }
@@ -237,6 +241,10 @@ a{
 }
 .month{
     padding: 0 20px 0 0;
+}
+.divisor{
+    border-bottom: solid 1px black;
+    padding-bottom: 30px;
 }
 
 .box{
