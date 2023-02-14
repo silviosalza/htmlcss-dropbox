@@ -198,6 +198,22 @@ img{
 .faq-icon{
     padding-right: 30px;
 }
+
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+}
+.footer{
+    padding: 80px 0;
+}
+.footer li{
+    padding: 10px 0;
+}
+.footer hr{
+    margin: 30px 0;
+}
+
 /* ------------------------------------------------------- */
 /* TYPO */
 
