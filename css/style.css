@@ -228,11 +228,10 @@ img{
     padding: 20px 0;
     font-weight: 600;
 }
-
-.faq-icon{
-    padding-right: 20px;
-
+.question{
+    padding: 30px 0;
 }
+
 
 /** --------------------------------------------------------- */
 /** LAYOUT FOOTER */
@@ -497,9 +496,14 @@ header:hover .title{
 .faq-hov:hover .answer{
     display:inline-block;
     font-weight:500 ;
-    padding-top: 30px;
+    font-style: italic;
+    padding-top: 30px;    
 }
-.faq-hov:hover .faq-icon{
+.faq-hov:hover h4{
+    color: #0061FF;
+}
+
+.faq-hov:hover .fa-angle-down{
     transform: rotate(180deg);
 }
 .footer a:hover,
