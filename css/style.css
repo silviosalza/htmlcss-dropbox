@@ -1,4 +1,4 @@
-/* RESET */
+/*! RESET */
 *{
     padding: 0;
     margin: 0;
@@ -7,65 +7,54 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
 /* ------------------------------------------------ */
 
-/* UTILITIES */
+/*! UTILITIES */
 
 .flex{
     display: flex;
 }
-
 .start{
     align-items: flex-start;
 }
-
 .vertical{
     flex-direction: column;
     gap: 30px;
 }
-
 .space-bet{
     justify-content: space-between;
 }
-
 .center{
     justify-content: center;
     align-items: center;
 }
-
 .aligncenter{
     align-items: center;
 }
-
 .alignstart{
     align-items: flex-start;
 }
-
 .container{
     width: 80%;
     margin: 0 auto;
     max-width: 1200px;
 }
-
 .container2{
     width: 50%;
     margin: 0 auto;
     max-width: 1200px;
 }
-
 .container3{
     width: 100%;
     margin: 0 auto;
 }
-
 img{
     max-width: 100%;
 }
 
-
-
-/* ------------------------------------------------- */
-/* LAYOUT - HEADER */
+/** ------------------------------------------------- */
+/** LAYOUT - HEADER */
 .header{
     position: fixed;
     background-color: white;
@@ -103,7 +92,7 @@ img{
     top: 0;
 }
 /* -------------------------------------------------------- */
-/* LAYOUT - MAIN */
+/** LAYOUT - MAIN */
 
 /* type of offer sect */
 .offer{
@@ -222,37 +211,6 @@ img{
     padding: 50px;
 }
 
-.designit{
-    background-color: #A2D39B;
-    border: #D1E9CD solid 10px;
-}
-
-.asu{
-    background-color: #61082B;
-}
-.uf{
-    background-color: #0093CE;
-}
-.topps{
-    background-color: #FF1C1C;
-}
-.wbr{
-    background-color: #D5001F;
-}
-.heart{
-    background-color: #B4D0E7;
-}
-.lonely{
-    background-color: #0D2481;
-}
-.clearch{
-    background-color: #FFD830;
-}
-.box2{
-    background-color: #F5F5F5;
-}
-
-
 /* call to act sect */
 .calltoact{
     padding: 150px 0;
@@ -279,8 +237,8 @@ img{
 
 }
 
-/* --------------------------------------------------------- */
-/* LAYOUT FOOTER */
+/** --------------------------------------------------------- */
+/** LAYOUT FOOTER */
 footer{
     background-color: black;
     color: white;
@@ -298,9 +256,9 @@ footer{
     margin: 30px 0;
 }
 
-/* ------------------------------------------------------- */
-/* TYPO */
-/* HEADER TYPO */
+/** ------------------------------------------------------- */
+
+/** HEADER TYPO */
 ul li{
     list-style: none;
 }
@@ -347,8 +305,8 @@ a{
 .darrow{
     font-size: 50px;
 }
-/* ------------------------------------------------- */
-/* MAIN TYPO */
+/** ------------------------------------------------- */
+/** MAIN TYPO */
 .blu-circle{
     height: 13px;
     width: 13px;
@@ -416,8 +374,38 @@ a{
     font-size: 30px;
     width: 50%;
 }
+/* sponsor box color */
+.designit{
+    background-color: #A2D39B;
+    border: #D1E9CD solid 10px;
+}
+.asu{
+    background-color: #61082B;
+}
+.uf{
+    background-color: #0093CE;
+}
+.topps{
+    background-color: #FF1C1C;
+}
+.wbr{
+    background-color: #D5001F;
+}
+.heart{
+    background-color: #B4D0E7;
+}
+.lonely{
+    background-color: #0D2481;
+}
+.clearch{
+    background-color: #FFD830;
+}
+.box2{
+    background-color: #F5F5F5;
+}
 
-/* FOOTER TYPO */
+
+/*? FOOTER TYPO */
 footer li:first-child{
     font-size: x-large;
 }
@@ -425,8 +413,10 @@ footer li:first-child{
 #lang{
     color:rgb(188, 188, 188);
 }
-/* ------------------------------------------------------------- */
-/* HOVERS ANIMATION */
+
+/** ------------------------------------------------------------- */
+/** HOVERS ANIMATION */
+
 .column-offer:hover,
 .offer-footer:hover{
     transform: scale(104%);
@@ -493,4 +483,9 @@ header:hover .title{
 }
 .faq-hov:hover .answer{
     display:inline-block;
+    font-weight:500 ;
+}
+.footer a:hover,
+.jumbotron .darrow:hover{
+    color:#5c9aff;
 }
