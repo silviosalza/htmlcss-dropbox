@@ -114,20 +114,6 @@ img{
     width: calc(100% / 3);
     border: solid 1px black;
 }
-.column-offer:hover,
-.offer-footer:hover{
-    transform: scale(103%);
-    transition-duration: 1s;
-    border: #0061FF solid 4px;
-}
-.column-offer:hover i,
-.offer-footer:hover i,
-.column-offer:hover h3,
-.offer-footer:hover h3{
-    color:#0061FF;
-
-}
-
 
 .middle{
     margin: 0 25px;
@@ -199,11 +185,6 @@ img{
 .card{
     padding: 20px;
 }
-.card:hover{
-    border: solid 1px #0061FF ;
-    transform: scale(105%);
-    transition-duration: 0s;
-}
 
 .card h4{
     font-size: 20px;
@@ -222,14 +203,6 @@ img{
 .box img{
     width: 40%;
     filter: invert(100%);
-}
-.box:hover img{
-    transform: scale(120%);
-    transition-duration: 1s;
-}
-.box2:hover img{
-    transform: translateX(50%);
-    transition-duration: 2s;
 }
 
 .box{
@@ -349,17 +322,6 @@ a{
     color: inherit;
 }
 
-
-.underline:hover{
-    border-bottom: #0D2481 solid 5px;
-    padding-bottom: 32px;
-}
-.underline2:hover{
-    border-bottom: #0D2481 solid 5px;
-    padding-bottom: 28px;
-}
-
-
 .blu-but{
     background-color:#0061FF ;
     color: white;
@@ -375,15 +337,6 @@ a{
     display: inline-block;
 }
 
-.blu-but:hover,
-.blu-but2:hover{
-    background-color:#5c9aff;
-}
-
-.white-but:hover,
-.white-but-bord:hover{
-    background-color: rgb(233, 233, 233);
-}
 
 .white-but{
     color: rgb(0, 0, 0);
@@ -401,19 +354,6 @@ a{
     font-size: 60px;
     padding: 40px 0;
 }
-header:hover .title{
-
-    animation: transition 3s ;
-    animation-iteration-count: 1;
-}
-@keyframes transition{
-    /* 0%{filter: opacity(0%);}
-    100%{filter: opacity(100%);} */
-    0%{color: black;}
-    50%{color:#0061FF; transform: scale(110%);}
-    100%{color: black; transform: scale(100%);}
-}
-
 
 .darrow{
     font-size: 50px;
@@ -497,3 +437,62 @@ footer li:first-child{
     color:rgb(188, 188, 188);
 }
 
+/* HOVERS */
+.column-offer:hover,
+.offer-footer:hover{
+    transform: scale(103%);
+    transition-duration: 1s;
+    border: #0061FF solid 4px;
+}
+.column-offer:hover i,
+.offer-footer:hover i,
+.column-offer:hover h3,
+.offer-footer:hover h3{
+    color:#0061FF;
+}
+
+.card:hover{
+    border: solid 1px #0061FF ;
+    transform: scale(105%);
+    transition-duration: 0s;
+}
+.box:hover img{
+    transform: scale(120%);
+    transition-duration: 1s;
+}
+.box2:hover img{
+    transform: translateX(50%);
+    transition-duration: 2s;
+}
+
+.underline:hover{
+    border-bottom: #0D2481 solid 5px;
+    padding-bottom: 32px;
+}
+.underline2:hover{
+    border-bottom: #0D2481 solid 5px;
+    padding-bottom: 28px;
+}
+
+.blu-but:hover,
+.blu-but2:hover{
+    background-color:#5c9aff;
+}
+
+.white-but:hover,
+.white-but-bord:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+header:hover .title{
+
+    animation: transition 3s ;
+    animation-iteration-count: 1;
+}
+@keyframes transition{
+    /* 0%{filter: opacity(0%);}
+    100%{filter: opacity(100%);} */
+    0%{color: black;}
+    50%{color:#0061FF; transform: scale(110%);}
+    100%{color: black; transform: scale(100%);}
+}
