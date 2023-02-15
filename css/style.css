@@ -491,12 +491,16 @@ header:hover .title{
 .answer{
     display: none;
 }
-.faq-hov:hover .question{
-    display: none;
-}
+/* .faq-hov:hover .question{
+    display: none; */
+
 .faq-hov:hover .answer{
     display:inline-block;
     font-weight:500 ;
+    padding-top: 30px;
+}
+.faq-hov:hover .faq-icon{
+    transform: rotate(180deg);
 }
 .footer a:hover,
 .jumbotron .darrow:hover{
