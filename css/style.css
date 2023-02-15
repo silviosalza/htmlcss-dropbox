@@ -429,9 +429,9 @@ footer li:first-child{
 /* HOVERS ANIMATION */
 .column-offer:hover,
 .offer-footer:hover{
-    transform: scale(103%);
+    transform: scale(104%);
     transition-duration: 1s;
-    border: #0061FF solid 4px;
+    border: #0061FF solid 3px;
 }
 .column-offer:hover i,
 .offer-footer:hover i,
