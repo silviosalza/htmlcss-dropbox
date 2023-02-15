@@ -117,9 +117,6 @@ img{
 .col-body ul{
     padding: 25px 45px;
 }
-.highlight{
-    margin-top: 50px;
-}
 
 .icon i{
     padding: 8px 5px 0 0;
@@ -403,7 +400,15 @@ a{
 .box2{
     background-color: #F5F5F5;
 }
-
+.box2 hr{
+    width: 30%;
+    margin-bottom: 20px;
+}
+.col-body hr{
+    width: 30%;
+    margin-left: 45px;
+    margin-top: 45px;
+}
 
 /*? FOOTER TYPO */
 footer li:first-child{
@@ -429,12 +434,20 @@ footer li:first-child{
 .offer-footer:hover h3{
     color:#0061FF;
 }
+.highlight:hover{
+    transform:scale(103%);
+    transition-duration: 0.5s ;
+}
 
 .card:hover{
     border: solid 1px #0061FF ;
     transform: scale(105%);
     transition-duration: 0s;
 }
+.card:hover h4{
+    color: #0061FF;
+}
+
 .box:hover img{
     transform: scale(120%);
     transition-duration: 1s;
