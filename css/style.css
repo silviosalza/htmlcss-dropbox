@@ -490,8 +490,6 @@ header:hover .title{
 .answer{
     display: none;
 }
-/* .faq-hov:hover .question{
-    display: none; */
 
 .faq-hov:hover .answer{
     display:inline-block;
