@@ -85,6 +85,7 @@ img{
 
 .header li{
     padding: 0 20px;
+
 }
 
 .jumbo-info{
@@ -116,15 +117,15 @@ img{
 .column-offer:hover,
 .offer-footer:hover{
     transform: scale(103%);
-    transition-duration: 1s; 
-    border: #0061FF solid 4px;  
+    transition-duration: 1s;
+    border: #0061FF solid 4px;
 }
 .column-offer:hover i,
 .offer-footer:hover i,
 .column-offer:hover h3,
 .offer-footer:hover h3{
     color:#0061FF;
-    
+
 }
 
 
@@ -139,7 +140,7 @@ img{
 }
 
 .col-body ul{
-    padding: 25px 45px;   
+    padding: 25px 45px;
 }
 .highlight{
     margin-top: 50px;
@@ -176,7 +177,7 @@ img{
 
 .partner-info{
     width: 40%;
-  
+
     padding: 50px 0 0 30px;
 }
 .partner-info p{
@@ -302,7 +303,7 @@ img{
 
 .faq-icon{
     padding-right: 20px;
-    
+
 }
 
 .answer{
@@ -347,6 +348,8 @@ a{
     text-decoration: none;
     color: inherit;
 }
+
+
 .underline:hover{
     border-bottom: #0D2481 solid 5px;
     padding-bottom: 32px;
@@ -355,6 +358,7 @@ a{
     border-bottom: #0D2481 solid 5px;
     padding-bottom: 28px;
 }
+
 
 .blu-but{
     background-color:#0061FF ;
@@ -398,13 +402,16 @@ a{
     padding: 40px 0;
 }
 header:hover .title{
-    
-    animation: transition 2s ;
+
+    animation: transition 3s ;
     animation-iteration-count: 1;
 }
 @keyframes transition{
-    0%{filter: opacity(0%);}
-    100%{filter: opacity(100%);}
+    /* 0%{filter: opacity(0%);}
+    100%{filter: opacity(100%);} */
+    0%{color: black;}
+    50%{color:#0061FF; transform: scale(110%);}
+    100%{color: black; transform: scale(100%);}
 }
 
 
@@ -489,3 +496,4 @@ footer li:first-child{
 #lang{
     color:rgb(188, 188, 188);
 }
+
