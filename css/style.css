@@ -279,17 +279,6 @@ img{
 
 }
 
-.answer{
-    display: none;
-}
-.faq-hov:hover .question{
-    display: none;
-}
-.faq-hov:hover .answer{
-    display:inline-block;
-}
-
-
 /* --------------------------------------------------------- */
 /* LAYOUT FOOTER */
 footer{
@@ -436,8 +425,8 @@ footer li:first-child{
 #lang{
     color:rgb(188, 188, 188);
 }
-
-/* HOVERS */
+/* ------------------------------------------------------------- */
+/* HOVERS ANIMATION */
 .column-offer:hover,
 .offer-footer:hover{
     transform: scale(103%);
@@ -495,4 +484,13 @@ header:hover .title{
     0%{color: black;}
     50%{color:#0061FF; transform: scale(110%);}
     100%{color: black; transform: scale(100%);}
+}
+.answer{
+    display: none;
+}
+.faq-hov:hover .question{
+    display: none;
+}
+.faq-hov:hover .answer{
+    display:inline-block;
 }
